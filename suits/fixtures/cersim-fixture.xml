@@ -1,0 +1,17 @@
+<application>
+    <name>CER Simulator</name>
+    <description>A fixture to prepare CER Simulator for the test cases</description>
+    <version>1.0</version>
+    <authors>
+        <author email="ali.paikan@iit.it">Ali Paikan</author>
+    </authors>
+    <module>
+        <name>...</name>
+        <parameters></parameters>
+        <node>localhost</node>
+        <ensure>
+            <wait>20</wait>
+        </ensure>
+    </module>    
+</application>
+
