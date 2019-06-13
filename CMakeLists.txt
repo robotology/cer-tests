@@ -9,9 +9,8 @@
 cmake_minimum_required(VERSION 2.8.9)
 project(CER-Tests)
 
-# find a version of RTF higher then 1.0.1
-# and with yarp support enabled
-find_package(RTF 1.0.1 COMPONENTS YARP REQUIRED)
+find_package(RobotTestingFramework 2 COMPONENTS DLL REQUIRED)
+find_package(YARP 3.2 COMPONENTS OS robottestingframework REQUIRED)
 
 # set the output plugin directory to collect all the shared libraries
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/plugins)

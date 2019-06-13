@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suit name="Basic Tests Suite">
+<suite name="Basic Tests Suite">
     <description>Testing robot's basic features</description>
     <environment>--robotname cerSim</environment>
     <fixture param="--fixture cersim-fixture.xml"> yarpmanager </fixture>
@@ -15,5 +15,5 @@
 
     <!-- Motor Stiction -->
 
-</suit>
+</suite>
 
